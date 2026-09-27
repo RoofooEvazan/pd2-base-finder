@@ -7,7 +7,7 @@
 @media (max-width:880px){.bf-grid{grid-template-columns:minmax(0,1fr)}}
 .row .grow{grid-column:1/-1}
 
-input[type=search]{font:16px var(--body);color:#efe6cf;width:100%;min-width:0;padding:8px 9px;border-radius:2px;border:1px solid #000;
+input[type=search]{font:16px var(--body);color:#efe6cf;width:100%;min-width:0;padding:8px 9px;border-radius:0;border:1px solid #000;
   background:#0b0907 linear-gradient(180deg,#050403,#12100c);box-shadow:inset 0 2px 5px rgba(0,0,0,.9),0 0 0 1px #4a3b25,0 1px 0 1px rgba(255,220,150,.06)}
 input[type=search]:focus{box-shadow:inset 0 2px 5px rgba(0,0,0,.9),0 0 0 1px #c7a55a,0 0 10px rgba(230,180,80,.3);outline:none}
 input[type=search]::placeholder{color:#6f6858}
@@ -20,7 +20,7 @@ input[type=search]::placeholder{color:#6f6858}
 .bf-req.bad span{color:#e8a25c}
 @media (max-width:640px){.bf-req{text-align:left}}
 
-.bf-area{font:700 22px/1.2 var(--display);letter-spacing:.03em;color:var(--gold-hi);text-shadow:0 2px 0 #000;text-wrap:balance;margin-top:4px}
+.bf-area{font:700 16px/1.35 var(--display);letter-spacing:.03em;color:var(--gold-hi);text-wrap:balance;margin-top:4px}
 .bf-where{font-size:15px;color:var(--ink)}
 .bf-sock{margin:4px 0 2px}
 .bf-brackets{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center}
