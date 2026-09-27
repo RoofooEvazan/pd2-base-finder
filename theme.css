@@ -150,13 +150,3 @@ table.heat td{box-shadow:inset 0 0 0 1px rgba(0,0,0,.35)}
 
 
 @media (max-width:640px){ .tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px} .tab{padding:11px 8px;font-size:12px;letter-spacing:.06em} }
-
-/* site bar */
-.rf-sitebar{position:relative;z-index:50;margin:-28px -16px 24px;display:flex;align-items:center;flex-wrap:wrap;gap:6px 18px;padding:9px 18px;background:rgba(7,6,5,.94);border-bottom:1px solid #3a3024;box-shadow:0 4px 14px rgba(0,0,0,.35);font:600 14px/1.3 "Alegreya Sans",system-ui,sans-serif;box-sizing:border-box;text-align:left}
-.rf-sitebar a{color:#a89c86;text-decoration:none;border-radius:6px;padding:3px 7px;white-space:nowrap}
-.rf-sitebar a:hover{color:#f3d58c}
-.rf-sitebar a:focus-visible{outline:2px solid #f3d58c;outline-offset:1px}
-.rf-sitebar .rf-home{color:#d9b25f;font-family:Cinzel,Georgia,serif;font-weight:700;letter-spacing:.05em;margin-right:auto;padding-left:0}
-.rf-sitebar .rf-tools{display:flex;flex-wrap:wrap;gap:2px 4px}
-.rf-sitebar .rf-tools a[aria-current=page]{color:#f3d58c;background:rgba(217,178,95,.13)}
-@media(max-width:640px){.rf-sitebar{padding:8px 12px;font-size:13px}.rf-sitebar .rf-home{flex-basis:100%}.rf-sitebar .rf-tools{margin-left:-7px}}
